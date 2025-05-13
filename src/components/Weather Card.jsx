@@ -32,7 +32,7 @@ function WeatherCard({ weather }) {
         </div>{' '}
         <div>
           <p className="text-gray-400">Pressure</p>
-          <p className="font-bold">{weather.main.pressure}hPa</p>
+          <p className="font-bold">{weather.main.pressure} hPa</p>
         </div>{' '}
         <div>
           <p className="text-gray-400">Humidity</p>
