@@ -40,7 +40,7 @@ function App() {
         >
           <source src={background} type="video/mp4" />
         </video>
-        <div className="p-8 rounded-lg text-white shadow-lg max-w-md w-full bg-black/80 z-10">
+        <div className="p-8 rounded-lg text-white shadow-lg max-w-md bg-black/80 z-10 w-50% md:w-full ">
           <h1 className="text-3xl text-center font-bold mb-6">Weather App</h1>
           <SearchBar error={error} fetchWeather={fetchWeather}></SearchBar>
           {loading && (
